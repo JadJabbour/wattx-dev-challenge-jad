@@ -16,3 +16,5 @@ What i didn't have time to do (due to my current work/affairs) is implement prop
 sources are to be added, then unit testing would become more integral. 
 
 just run 'yarn dev'
+
+call "localhost:300/v1/get_coins(?limit=n)"
