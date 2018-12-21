@@ -15,6 +15,8 @@ using our API.
 What i didn't have time to do (due to my current work/affairs) is implement proper unit testing, I don't really see a need for it when dealing with just 2 APIs (given the problem here), but assuming that this tool is to be an aggregator of coin info, and more 
 sources are to be added, then unit testing would become more integral. 
 
+I've created a MongoDB on atlas to make testing easier
+
 just run 'yarn dev'
 
 call "localhost:300/v1/get_coins(?limit=n)"
